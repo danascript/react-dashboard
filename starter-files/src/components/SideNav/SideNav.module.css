@@ -1,0 +1,29 @@
+.sideNav {
+    border-right: 3px solid #edeff2;
+    width: 65px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+}
+
+.image {
+    background-color: #c3cad9;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.icon {
+    background-color: #c3cad9;
+    width: 25px;
+    height: 25px;
+}
+
+.panel .icon {
+    margin-bottom: 1.5rem;
+}
