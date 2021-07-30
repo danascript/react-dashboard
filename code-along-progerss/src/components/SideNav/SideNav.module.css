@@ -18,12 +18,6 @@
     height: 35px;
 }
 
-.icon {
-    background-color: #c3cad9;
-    width: 25px;
-    height: 25px;
-}
-
-.panel .icon {
-    margin-bottom: 1.5rem;
+.arrow {
+    transform: rotate(90deg);
 }
