@@ -1,6 +1,30 @@
 .search {
-    width: 250px;
+    width: 275px;
     height: 45px;
     border-radius: 25px;
+    box-shadow: 1px 1px 5px 0px #c3cad9;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.input {
     border: 0;
+    width: 100%;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}
+
+.input::placeholder {
+    color: #c3cad9;
+}
+
+.arrow {
+    transform: rotate(90deg);
+}
+
+.icon {
+    padding: 1.2rem;
 }

@@ -4,6 +4,11 @@
 
 body {
     margin: 0;
-    font-family: 'Amiko', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f7f8fa;
+}
+
+main {
+    margin-left: 65px;
+    padding: 1rem;
 }

@@ -1,0 +1,50 @@
+.grid {
+    background: transparent;
+    height: calc(100vh - 72px - 65px);
+    display: grid;
+    grid-template-areas:
+        'section section4 section6'
+        'section section4 section6'
+        'section2 section4 section6'
+        'section2 section5 section6'
+        'section3 section5 section7'
+        'section3 section5 section7'
+        'section3 section5 section7';
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.section {
+    grid-area: section;
+    background: red;
+}
+
+.section2 {
+    grid-area: section2;
+    background: pink;
+}
+
+.section3 {
+    grid-area: section3;
+    background: yellow;
+}
+
+.section4 {
+    grid-area: section4;
+    background: cyan;
+}
+
+.section5 {
+    grid-area: section5;
+    background: blue;
+}
+
+.section6 {
+    grid-area: section6;
+    background: rebeccapurple;
+}
+
+.section7 {
+    grid-area: section7;
+    background: hotpink;
+}

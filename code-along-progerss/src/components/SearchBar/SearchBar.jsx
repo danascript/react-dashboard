@@ -1,11 +1,19 @@
 import React from 'react';
 
+import Icon from './../Icons/Icon';
+
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
     return (
-        <div>
-            <input placeholder="Search" className={styles.search} type="search" />
+        <div className={styles.search}>
+            <div classes={styles.icon}>
+                <Icon icon="search" width={14} />
+            </div>
+            <input placeholder="Search" className={styles.input} type="search" />
+            <div classes={styles.icon}>
+                <Icon icon="arrow" classes={styles.arrow} width={14} />
+            </div>
         </div>
     );
 };

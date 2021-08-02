@@ -2,10 +2,6 @@
     margin-left: 65px;
     border-bottom: 3px solid #edeff2;
     height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
 }
 
 .brand {
