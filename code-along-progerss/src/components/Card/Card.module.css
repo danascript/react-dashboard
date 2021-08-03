@@ -1,0 +1,13 @@
+.card {
+    border-radius: 5px;
+    background-color: white;
+    height: 100%;
+    padding: 1rem;
+    box-shadow: 1px 1px 3px 0px #d8dfef;
+}
+
+.headline {
+    font-weight: 600;
+    color: #c3cad9;
+    font-size: 0.8rem;
+}
