@@ -13,13 +13,8 @@ const SingleProduct = ({ imgSrc, imgAlt, amount, percentage, icon, isUpTrend }) 
                     <Icon classes="mr-4" icon={icon} />
                     {amount}
                 </h4>
-                <p className={isUpTrend ? 'text-success' : 'text-danger'}>
-                    {/* TODO: import uptrend icon! */}
-                    <Icon
-                        classes="mr-4"
-                        color={isUpTrend ? '#28a745' : '#dc3545'}
-                        icon={isUpTrend ? 'stats' : 'downtrend'}
-                    />
+                <p className={`${styles.trend} ${isUpTrend && styles.uptrend}`}>
+                    <Icon classes={`mr-4 ${styles.icon} ${isUpTrend && styles.uptrendFill}`} icon="downtrend" />
                     {percentage} %
                 </p>
             </div>

@@ -3,8 +3,12 @@ import React, { Fragment } from 'react';
 import Card from './../Card';
 import Icon from './../Icons/Icon';
 import SingleProduct from '../SingleProduct';
+import Ranking from '../Ranking';
 
 import airPodsImg from './../../assets/airpods.jpg';
+import appleImacImg from './../../assets/imac.jpg';
+
+import mostProfitableGoods from './../../data/profitableSections.json';
 
 import styles from './Dashboard.module.css';
 
@@ -29,10 +33,20 @@ const Dashboard = () => {
                     </Card>
                 </div>
                 <div className={styles.section2}>
-                    <Card headline="Most Viewed Product" />
+                    <Card headline="Most Viewed Product">
+                        <SingleProduct
+                            imgSrc={appleImacImg}
+                            imgAlt="Apple Pro Display"
+                            amount="8.357"
+                            percentage="1.23"
+                            icon="eye"
+                        />
+                    </Card>
                 </div>
                 <div className={styles.section3}>
-                    <Card headline="Most Profitable Sections" />
+                    <Card headline="Most Profitable Sections">
+                        <Ranking data={mostProfitableGoods} />
+                    </Card>
                 </div>
                 <div className={styles.section4}>
                     <Card headline="Most Profitable Categories" />

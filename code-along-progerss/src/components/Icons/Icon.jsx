@@ -5,6 +5,7 @@ import BasketIcon from './BasketIcon';
 import CogIcon from './CogIcon';
 import DashboardIcon from './DashboardIcon';
 import DowntrendIcon from './DowntrendIcon';
+import EyeIcon from './EyeIcon';
 import GridIcon from './GridIcon';
 import ListIcon from './ListIcon';
 import OptionsIcon from './OptionsIcon';
@@ -21,6 +22,7 @@ const Icon = props => {
         cog: CogIcon,
         dashboard: DashboardIcon,
         downtrend: DowntrendIcon,
+        eye: EyeIcon,
         grid: GridIcon,
         list: ListIcon,
         options: OptionsIcon,

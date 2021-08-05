@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Electronics",
+        "upTrend": true,
+        "profit": "56.23"
+    },
+    {
+        "name": "Computer",
+        "upTrend": false,
+        "profit": "46.43"
+    },
+    {
+        "name": "Construction",
+        "upTrend": true,
+        "profit": "38.22"
+    },
+    {
+        "name": "Auto Goods",
+        "profit": "33.21"
+    },
+    {
+        "name": "Camcoders",
+        "profit": "21.99"
+    }
+]
