@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Apple Air Pods Pro",
+        "imgName": "airPods",
+        "profit": "12.5"
+    },
+    {
+        "name": "Samsung Smart Watch",
+        "imgName": "samsungSmartWatch",
+        "profit": "11.3"
+    },
+    {
+        "name": "Apple iMac Pro",
+        "imgName": "appleImacPro",
+        "profit": "6.3"
+    },
+    {
+        "name": "Apple Monitor Pro",
+        "imgName": "appleImac",
+        "profit": "9.9"
+    },
+    {
+        "name": "Apple Watch Series 4",
+        "imgName": "appleWatch",
+        "profit": "7.8"
+    },
+    {
+        "name": "Google Pixel 4 XL",
+        "imgName": "googlePixel",
+        "profit": "6.2"
+    },
+    {
+        "name": "Amazon Smart Speaker",
+        "imgName": "amazonSmartSpeaker",
+        "profit": "4.8"
+    }
+]

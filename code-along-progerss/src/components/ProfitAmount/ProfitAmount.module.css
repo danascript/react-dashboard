@@ -4,4 +4,6 @@
     background-color: var(--main-background);
     font-weight: 600;
     margin-bottom: 0;
+    word-break: keep-all;
+    margin-left: 0.5rem;
 }

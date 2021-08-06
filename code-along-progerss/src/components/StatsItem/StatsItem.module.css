@@ -1,0 +1,9 @@
+.number {
+    color: var(--accent-text);
+    font-size: 2.5rem;
+}
+
+.text {
+    color: var(--main-text);
+    font-weight: 600;
+}

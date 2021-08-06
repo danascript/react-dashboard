@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Apple MacBook Pro 16",
+        "imgName": "appleMacBook",
+        "profit": "10"
+    },
+    {
+        "name": "Apple iPad 10.2",
+        "imgName": "appleIpad",
+        "profit": "9.2"
+    },
+    {
+        "name": "Microsoft Surface Book",
+        "imgName": "microsoftSurfaceBook",
+        "profit": "8.4"
+    },
+    {
+        "name": "Apple Watch Series 4",
+        "imgName": "appleWatch",
+        "profit": "7.8"
+    },
+    {
+        "name": "Apple Monitor Pro",
+        "imgName": "appleImac",
+        "profit": "9.9"
+    },
+    {
+        "name": "Google Nest",
+        "imgName": "googleNest",
+        "profit": "7.4"
+    },
+    {
+        "name": "Apple iMac Pro",
+        "imgName": "appleImacPro",
+        "profit": "6.3"
+    },
+    {
+        "name": "Samsung Smart Watch",
+        "imgName": "samsungSmartWatch",
+        "profit": "5.4"
+    }
+]

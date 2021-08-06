@@ -43,7 +43,7 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
     .grid {
         grid-template-areas:
             'section7 section7'

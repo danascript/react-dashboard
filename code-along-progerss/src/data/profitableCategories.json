@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Mobile Phones",
+        "upTrend": true,
+        "profit": "12.5"
+    },
+    {
+        "name": "Smart Watch",
+        "profit": "11.3"
+    },
+    {
+        "name": "Portable Acoustics",
+        "profit": "9.9"
+    },
+    {
+        "name": "Smart Speakers",
+        "upTrend": false,
+        "profit": "8.7"
+    },
+    {
+        "name": "Camcorders",
+        "profit": "7.5"
+    },
+    {
+        "name": "Tablets",
+        "profit": "2.5"
+    }
+]

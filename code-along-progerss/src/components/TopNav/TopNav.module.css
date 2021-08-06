@@ -5,6 +5,7 @@
     position: fixed;
     background-color: var(--main-background);
     width: calc(100% - 65px);
+    z-index: 1;
 }
 
 .brand {

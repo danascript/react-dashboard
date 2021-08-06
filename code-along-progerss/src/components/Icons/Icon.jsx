@@ -1,4 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import { ICON_COLOR } from '../../shared/constants';
 
 import ArrowIcon from './ArrowIcon';
 import BasketIcon from './BasketIcon';
@@ -33,8 +36,22 @@ const Icon = props => {
         user: UserIcon,
     };
 
-    const IconComponent = components[props.icon || 'arrow'];
+    const IconComponent = components[props.icon];
     return <IconComponent {...props} />;
 };
 
 export default Icon;
+
+Icon.propTypes = {
+    props: PropTypes.shape({
+        icon: PropTypes.string.isRequired,
+        color: PropTypes.string,
+        width: PropTypes.number,
+        classes: PropTypes.string,
+    }),
+};
+
+Icon.defaultProps = {
+    icon: 'arrow',
+    color: ICON_COLOR,
+};

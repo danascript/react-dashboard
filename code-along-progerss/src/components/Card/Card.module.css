@@ -5,8 +5,3 @@
     padding: 2rem;
     box-shadow: 1px 1px 3px 0px #d8dfef;
 }
-
-.headline {
-    font-weight: 600;
-    color: var(--main-text);
-}

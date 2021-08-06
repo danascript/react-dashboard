@@ -1,0 +1,21 @@
+.trend {
+    color: var(--status-alert);
+}
+
+.uptrend {
+    color: var(--status-success);
+}
+
+.uptrendFill {
+    transform: rotateX(180deg);
+}
+
+.icon,
+.icon path {
+    fill: var(--status-alert);
+}
+
+.uptrendFill,
+.uptrendFill path {
+    fill: var(--status-success);
+}
